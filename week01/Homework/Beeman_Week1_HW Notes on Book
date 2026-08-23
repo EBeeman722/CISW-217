@@ -1,0 +1,7 @@
+To create a database in PostgreSQL, you would use 'Create Database {Name of Database}'
+
+To create a table in PostgreSQL, you would do 'create table {Name of Table}()', with any other needed information going into the parenthesis after the name fo the table.
+
+Semicolons signal the end of a command given to the system.
+
+Two types of data that may be used in a table are names and ages of individuals.
