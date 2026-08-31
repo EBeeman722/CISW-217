@@ -1,0 +1,20 @@
+CREATE DATABASE PracticeDB;
+
+CREATE TABLE Video_Games(Title varchar(50), genre varchar(50), release_date date, Publisher varchar(25), developer varchar(25), average_playtime numeric);
+
+insert into video_games(title, genre, release_date, publisher, developer, average_playtime)
+values('Hades', 'Rogue-like/Hack-n-Slash', '2020-09-17', 'Supergiant Games', 'Supergiant Games', 95), 
+('Persona 5', 'JRPG/Social Sim', '2016-09-15', 'SEGA', 'Atlas', 115),
+('Hollow Knight', 'Metroidvania', '2017-02-14', 'Team Cherry', 'Team Cherry', 150);
+
+-- Error Test:
+-- Error Ran: insert into video_games(title, genre, release_date, publisher, developer, average_playtime)
+values('Hades', 'Rogue-like/Hack-n-Slash', 2020-09-17, 'Supergiant Games', 'Supergiant Games', 95), (date is formatted improperly)
+-- ERROR:  column "release_date" is of type date but expression is of type integer
+
+
+
+-- Skimming:
+
+-- One concept I noticed that piqued my interest was 'SELECT DISTINCT' as it allows for management of data in a much more efficient manner.
+-- After reading, the question I had was how could I fix data after finding an incorrect value through the above command?
