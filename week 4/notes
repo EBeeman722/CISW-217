@@ -1,0 +1,61 @@
+-- ALTER TABLE games
+-- ADD COLUMN game_code char(5)
+
+-- UPDATE games
+-- SET game_code = 'ER001'
+-- WHERE title = 'Elden Ring'
+
+-- ALTER TABLE games
+-- ADD COLUMN description text;
+
+-- update games
+-- SET description = 'Open World RPG'
+-- WHERE title = 'Elden Ring'
+
+-- ALTER TABLE games
+-- ADD COLUMN price numeric(6,2)
+
+-- UPDATE games
+-- SET price = 59.99
+-- WHERE title = 'Elden Ring'
+
+-- UPDATE games
+-- SET price=24.995
+-- WHERE title = 'Hades'
+
+-- ALTER TABLE games
+-- ADD COLUMN rating real;
+
+-- UPDATE games
+-- SET rating = 4.7
+-- WHERE title = 'Elden Ring'
+
+-- UPDATE games
+-- SET rating = 4.123456789
+-- WHERE title = 'Hades'
+
+-- ALTER TABLE games
+-- ADD COLUMN hours_played double precision
+
+-- UPDATE games
+-- SET hours_played=127.45538432
+-- WHERE title='Elden Ring'
+
+-- ALTER TABLE games
+-- ADD COLUMN last_played timestamp;
+
+-- UPDATE games
+-- SET last_played = '2026-09-01 14:30:00'
+-- WHERE title = 'Elden Ring'
+
+-- ALTER TABLE games
+-- ADD COLUMN created_at timestamp with time zone
+
+-- UPDATE games
+-- SET created_at = '2026-09-01 14:30:00-07'
+-- WHERE title = 'Elden Ring'
+
+-- interval: stores an amount of time rather than date or time
+-- formatting_example = '2 hours 30 minutes'
+
+--boolean: stores true or false values
